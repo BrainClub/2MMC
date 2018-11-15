@@ -1,3 +1,8 @@
 $(document).ready(function(){
-  $('.slider').bxSlider();
+  $('.slider').bxSlider({
+    controls: false,
+    hideControlOnEnd: false
+
+
+  });
 });
